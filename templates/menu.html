@@ -1,0 +1,426 @@
+{% extends 'master.html' %}
+{% load static %}
+{% block content %}
+    <!-- Hero Start -->
+    <div class="container-fluid bg-light py-6 my-6 mt-0">
+        <div class="container text-center animated bounceInDown">
+            <h1 class="display-1 mb-4">Menu</h1>
+            <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                <li class="breadcrumb-item text-dark" aria-current="page">Menu</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    {#menu start#}
+    <div class="container-fluid menu bg-light py-6 my-6">
+        <div class="container">
+            <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Menu</small>
+                <h1 class="display-5 mb-5">Classics</h1>
+            </div>
+            <div class="tab-class text-center">
+                <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill active" data-bs-toggle="pill" href="#tab-6">
+                            <span class="text-dark" style="width: 150px;">Gin-based</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-7">
+                            <span class="text-dark" style="width: 150px;">Vodka-based</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-8">
+                            <span class="text-dark" style="width: 150px;">Rum-based</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-9">
+                            <span class="text-dark" style="width: 150px;">Whiskey-based</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-10">
+                            <span class="text-dark" style="width: 150px;">Tequilla-based</span>
+                        </a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-11">
+                            <span class="text-dark" style="width: 150px;">Alcohol Combo</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-6" class="tab-pane fade show p-0 active">
+                        <div class="row g-4">
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.1s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/gin-and-tonic-507439_640.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Gin and tonic</h4>
+                                            <div><h4 class="text-primary">Ksh300-800</h4></div>
+                                        </div>
+                                        <p class="mb-0">Gin, Lime, Tonic.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.2s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/cocktail-818197_640.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Gin and sin</h4>
+                                            <h4 class="text-primary">Ksh. 350-850</h4>
+                                        </div>
+                                        <p class="mb-0">Gin, Lime, Orange juice, Grenadine, Sprite</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.3s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/Pretty-in-Pink-Punch-3.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Pink lady</h4>
+                                            <h4 class="text-primary">Ksh. 400-800</h4>
+                                        </div>
+                                        <p class="mb-0">Gin, Grenadine, Lime, Egg-whites.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.4s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/cocktail-2357254_640.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Neon Lights</h4>
+                                            <h4 class="text-primary">Ksh.350-700</h4>
+                                        </div>
+                                        <p class="mb-0">Gin, Pineapple juice, Curacao, Sprite, Mint, Simple syrup, Lime</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.5s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/gin%20fizz2.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Gin Fizz</h4>
+                                            <h4 class="text-primary">Ksh. 350-700</h4>
+                                        </div>
+                                        <p class="mb-0">Gin, Cream, Mint, Simple syrup, Lime.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow bounceInUp" data-wow-delay="0.6s">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/tom-collin.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Tom Collins</h4>
+                                            <h4 class="text-primary">Ksh.350-700</h4>
+                                        </div>
+                                        <p class="mb-0">Gin, Lemon juice, Simple syrup, Soda.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-7" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/Blue-Lagoon-Mocktail-featured.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Blue lagoon</h4>
+                                            <h4 class="text-primary">Ksh.350-700</h4>
+                                        </div>
+                                        <p class="mb-0">Vodka, Blue curacao, Soda, Lime</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/purple%20rain.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Purple rain</h4>
+                                            <h4 class="text-primary">Ksh.380-750</h4>
+                                        </div>
+                                        <p class="mb-0">Vodka, Lime, Blue curacao, Grenadine</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/vodka%20sunrise.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Vodka Sunrise</h4>
+                                            <h4 class="text-primary">KSh. 300-600</h4>
+                                        </div>
+                                        <p class="mb-0">Vodka,orange juice,grenadine.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-8" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/Skinny_Mojito_4_2022.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Mojito</h4>
+                                            <h4 class="text-primary">Ksh. 500-900</h4>
+                                        </div>
+                                        <p class="mb-0">Rum, Lime, Mint, Simple syrup.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/mojito-1548908_640.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Passion mojito</h4>
+                                            <h4 class="text-primary">Ksh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Passion, rum, mint, simple syrup, lime.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/strawberry-mojito.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Strawberry mojito</h4>
+                                            <h4 class="text-primary">Ksh. 550- 950</h4>
+                                        </div>
+                                        <p class="mb-0">strawberry, rum, mint, simple syrup, lime.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/daquiri.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Daiquiri</h4>
+                                            <h4 class="text-primary">Ksh. 500-900</h4>
+                                        </div>
+                                        <p class="mb-0">rum,lemon juice, simple syrup.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/strawberry%20daiquiri.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Strawberry daiquiri</h4>
+                                            <h4 class="text-primary">Ksh.550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Strawberry, rum, lime, simple syrup.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-9" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/whiskey%20sour.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Whiskey sour</h4>
+                                            <h4 class="text-primary">Ksh. 500-900</h4>
+                                        </div>
+                                        <p class="mb-0">Whiskey, Lime, Egg-white, Bitters, Simple syrup.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/5p.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>5P</h4>
+                                            <h4 class="text-primary">Ksh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Whiskey, Passion, Orange, Mint.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/bourbon%20flip.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Bourbon flip</h4>
+                                            <h4 class="text-primary">Ksh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Whiskey, Lime, Simple syrup.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/dark%20and%20stormy.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Dark and stormy</h4>
+                                            <h4 class="text-primary">Ksh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Whiskey, Ginger beer,Lime, Mint.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-10" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/Tequilla%20sunrise.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Tequilla sunset</h4>
+                                            <h4 class="text-primary">Ksh.550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Tequilla, Orange juice, Grenadine.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/margarita.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Margarita</h4>
+                                            <h4 class="text-primary">Ksh. 500-900</h4>
+                                        </div>
+                                        <p class="mb-0">Tequilla, Lime, Triple sec.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/mangorita.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Mangorita</h4>
+                                            <h4 class="text-primary">Ksh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Mango, Tequilla, Lime,Triple sec.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="tab-11" class="tab-pane fade show p-0">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/Long%20Island.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Long Island iced tea</h4>
+                                            <h4 class="text-primary">Ksh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Vodka,Gin, Tequilla,Rum, Coca-cola, Triple sec</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/purple%20rain.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>AMF</h4>
+                                            <h4 class="text-primary">Ksh.550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Vodka, Gin, Tequilla, Rum, Blue curacao, Soda</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/tropical%20depression.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Tropical Depression</h4>
+                                            <h4 class="text-primary">KSh. 450-900</h4>
+                                        </div>
+                                        <p class="mb-0">Gin, Rum, Vodka, Passion,Pineapple, Orange, Mint.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/manhattan.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Manhattan</h4>
+                                            <h4 class="text-primary">KSh. 450-900</h4>
+                                        </div>
+                                        <p class="mb-0"> Rum, Whiskey, Simple syrup, Orange,Mint, Lime.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="menu-item d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid rounded-circle picha" src="../static/img/zangu/dirty%20martini.jpg" alt="">
+                                    <div class="w-100 d-flex flex-column text-start ps-4">
+                                        <div class="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
+                                            <h4>Dirty Martini</h4>
+                                            <h4 class="text-primary">KSh. 550-950</h4>
+                                        </div>
+                                        <p class="mb-0">Vodka,Vermouth, Wine.</p>
+                                        <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Pay</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu End -->
+{% endblock %}
